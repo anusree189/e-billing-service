@@ -1,0 +1,10 @@
+databaseChangeLog:
+  - include:
+      file: /changes/slab.sql
+      relativeToChangelogFile: true
+  - include:
+      file: /changes/consumer.sql
+      relativeToChangelogFile: true
+  - include:
+      file: /changes/bill.sql
+      relativeToChangelogFile: true
